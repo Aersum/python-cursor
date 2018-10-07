@@ -1,9 +1,6 @@
 def add_load(memb: list):
     max_age = 200
-    new_list = list(map(
-        lambda x: {
-            'age': x['age'],
-            'name': x['name'],
-            'load': x['age'] / max_age * 100
-        }, memb))
-    return new_list
+    filt_list = list(filter(lambda x: x['age'] < max_age, memb))
+    for i in filt_list:
+        i['load'] = i['age'] / max_age * 100
+    return filt_list

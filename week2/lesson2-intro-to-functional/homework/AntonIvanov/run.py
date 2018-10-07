@@ -15,9 +15,10 @@ if __name__ == "__main__":
     memb = copy.deepcopy(members)
     print(mkupper_name(memb))
 
-    # print("Task #3")
-    # print(add_load(members))
-    #
+    print("Task #3")
+    memb = copy.deepcopy(members)
+    print(add_load(memb))
+
     print("Task #4")
     print(remain_member_o(members))
 
@@ -26,7 +27,6 @@ if __name__ == "__main__":
 
     print("Task #6")
     print(sort_by_namel_age(members))
-    print(members)
 
     print("Advanced Task")
     print(get_rome_number(148))
