@@ -18,16 +18,17 @@ if __name__ == "__main__":
     # print("Task #3")
     # print(add_load(members))
     #
-    # print("Task #4")
-    # print(remain_member_o(members))
-    #
+    print("Task #4")
+    print(remain_member_o(members))
+
     print("Task #5")
     print(get_min_max_sum_age(members))
 
-    # print("Task #6")
-    # print(sort_by_namel_age(members))
-    #
-    # print("Advanced Task")
-    # print(get_rome_number(148))
-    # print(get_rome_number(18))
-    # print(get_rome_number(6))
+    print("Task #6")
+    print(sort_by_namel_age(members))
+    print(members)
+
+    print("Advanced Task")
+    print(get_rome_number(148))
+    print(get_rome_number(18))
+    print(get_rome_number(6))
