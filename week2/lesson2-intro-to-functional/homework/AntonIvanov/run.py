@@ -21,9 +21,9 @@ if __name__ == "__main__":
     # print("Task #4")
     # print(remain_member_o(members))
     #
-    # print("Task #5")
-    # print(get_min_max_sum_age(members))
-    #
+    print("Task #5")
+    print(get_min_max_sum_age(members))
+
     # print("Task #6")
     # print(sort_by_namel_age(members))
     #
