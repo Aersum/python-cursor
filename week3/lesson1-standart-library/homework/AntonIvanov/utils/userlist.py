@@ -31,3 +31,5 @@ user_list =[{'first_name': 'Anton', 'last_name': 'Ivanov', 'user_name': 'Aersum'
 {'first_name': 'Natali', 'last_name': 'Maslova', 'user_name': 'None'},
 {'first_name': 'Eugen', 'last_name': 'None', 'user_name': 'None'},
 {'first_name': 'Roman', 'last_name': 'Rodomansky', 'user_name': 'romanrodomansky'}]
+if __name__ == "__main__":
+    print(list(user_list[0].keys()))
