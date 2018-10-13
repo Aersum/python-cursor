@@ -1,5 +1,6 @@
 from utils.task1 import *
 from utils.task2 import *
+from utils.task3 import *
 import pprint
 
 if __name__ == "__main__":
@@ -26,3 +27,16 @@ if __name__ == "__main__":
 
     print(5*'*' + "Task 2" + 5*'*')
     pprint.pprint(E.mro())
+
+    print(5 * '*' + "Task 3" + 5 * '*')
+    it_company = ITcompany()
+    it_company += python_dev
+    it_company += java_dev
+    it_company += ruby_dev
+    it_company += PythonDeveloper("Elena", 12)
+    it_company += JavaDeveloper("Mickle", 1)
+    print(it_company)
+    it_company.fire("Anton")
+    print(it_company)
+    it_company.fire("Alex")
+    print(it_company)
