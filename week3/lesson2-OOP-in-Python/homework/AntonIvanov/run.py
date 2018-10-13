@@ -1,4 +1,6 @@
 from utils.task1 import *
+from utils.task2 import *
+import pprint
 
 if __name__ == "__main__":
     print(5*'*' + "Task 1" + 5*'*')
@@ -21,3 +23,6 @@ if __name__ == "__main__":
     ruby_dev.write_code()
     print(ruby_dev)
     ruby_dev()
+
+    print(5*'*' + "Task 2" + 5*'*')
+    pprint.pprint(E.mro())
