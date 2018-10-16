@@ -35,7 +35,9 @@ if __name__ == "__main__":
     it_company += ruby_dev
     it_company += PythonDeveloper("Elena", 12)
     it_company += JavaDeveloper("Mickle", 1)
+    print(10*'*')
     print(it_company)
+    print(10*'*')
     it_company.fire("Anton")
     print(it_company)
     it_company.fire("Alex")
